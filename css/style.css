@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    font-family: 'Inter';
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.card .user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .user img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.card .user h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card h3 {
+    margin-top: -10px;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+.card p {
+    font-size: 12px;
+    color: hsl(0, 0%, 83%);
+}
+
+.card .socialLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card .socialLink ul {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+
+.card .socialLink li {
+    list-style: none;
+    background-color: hsl(0, 0%, 20%);
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .socialLink li:hover {
+    color: hsl(0, 0%, 12%);
+    font-weight: bold;
+    background-color: hsl(75, 94%, 57%);
+}
